@@ -3,7 +3,8 @@ import CardImage from '../../assets/dashboard/card.svg'
 import PieImage from '../../assets/dashboard/pie.svg'
 import { IoIosCard } from "react-icons/io";
 import { TiCancel } from "react-icons/ti";
-import { FiCalendar } from 'react-icons/fi';
+import { FaApplePay, FaGooglePay } from "react-icons/fa";
+import { IoSync } from "react-icons/io5";
 
 const CardPage = () => {
 
@@ -87,24 +88,24 @@ const CardPage = () => {
                             </div>
                         </div>
                         <div className='flex items-center gap-x-3 mt-2'>
-                            <div className='w-8 h-8 rounded-full bg-[#F4F6F9] text-blue text-xl flex justify-center items-center'><TiCancel /></div>
+                            <div className='w-8 h-8 rounded-full bg-[#F4F6F9] text-blue text-xl flex justify-center items-center'><IoSync  /></div>
                             <div>
-                                <h1 className='font-semibold'>Block card</h1>
-                                <p className='text-gray'>Instantly block your card</p>
+                                <h1 className='font-semibold'>Change pin code</h1>
+                                <p className='text-gray'>Choose another pin code</p>
                             </div>
                         </div>
                         <div className='flex items-center gap-x-3 mt-2'>
-                            <div className='w-8 h-8 rounded-full bg-[#F4F6F9] text-blue text-xl flex justify-center items-center'><TiCancel /></div>
+                            <div className='w-8 h-8 rounded-full bg-[#F4F6F9] text-blue text-xl flex justify-center items-center'><FaGooglePay/></div>
                             <div>
-                                <h1 className='font-semibold'>Block card</h1>
-                                <p className='text-gray'>Instantly block your card</p>
+                                <h1 className='font-semibold'>Add to Google Pay</h1>
+                                <p className='text-gray'>Withdraw without any card</p>
                             </div>
                         </div>
                         <div className='flex items-center gap-x-3 mt-2'>
-                            <div className='w-8 h-8 rounded-full bg-[#F4F6F9] text-blue text-xl flex justify-center items-center'><TiCancel /></div>
+                            <div className='w-8 h-8 rounded-full bg-[#F4F6F9] text-blue text-xl flex justify-center items-center'><FaApplePay/></div>
                             <div>
-                                <h1 className='font-semibold'>Block card</h1>
-                                <p className='text-gray'>Instantly block your card</p>
+                                <h1 className='font-semibold'>Add to Apple Pay</h1>
+                                <p className='text-gray'>Withdraw without any card</p>
                             </div>
                         </div>
 
